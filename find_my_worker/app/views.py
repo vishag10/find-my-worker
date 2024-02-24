@@ -17,3 +17,7 @@ def single(request):
     return render(request,'single.html')
 def team(request):
     return render(request,'team.html')
+def login(request):
+    return render(request,'login.html')
+
+
