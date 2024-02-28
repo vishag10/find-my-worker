@@ -19,5 +19,7 @@ def team(request):
     return render(request,'team.html')
 def login(request):
     return render(request,'login.html')
-
-
+def signw(request):
+    return render(request,'sign.html')
+def signe(request):
+    return render(request,'signe.html')
